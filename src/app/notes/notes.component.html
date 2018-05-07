@@ -3,7 +3,7 @@
   <form>
     
     <div class="form-group col-md-10">
-        <label class="control-label col-sm-2">Sujbect:</label>
+        <label class="control-label col-sm-2">Subject:</label>
         
         <textarea id="subject"  class="form-control" rows="5" maxlength="255" required [(ngModel)]="note.subject" name="subject" #subject="ngModel"></textarea>
         <div *ngIf="subject.errors ">
