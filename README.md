@@ -1,3 +1,20 @@
+# Run Instrustions
+This is the angular component of the assignment. The java project can be found in
+https://github.com/dillanfernando/boeing-notes
+
+In order the run this application, use the following instructions on the above repo.
+
+The easiest way is to use the boeing-notes.war file in the /WAR_File folder.
+Just copy the war file to the webapps folder (Tested in Tomcat 8.5.31)
+Start tomcat
+Point your browser to http://localhost:8080/boeing-notes/index.html
+The other way to run the application is to run the app as spring-boot application
+Checkout this branch into spring boot app container
+All the angular file are compiled and placed in the proper location.
+Just point the browser to http://localhost:8080/boeing-notes/index.html
+
+
+
 # BoeingNotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
