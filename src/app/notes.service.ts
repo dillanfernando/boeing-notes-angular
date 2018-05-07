@@ -27,7 +27,7 @@ export class NotesService {
 
  addNote (noted: INote): Rx.Observable<INote> {
   return this.http.post<INote>(this.ADD_URI, noted, this.httpHeaderOptions).pipe(
-    tap((note: INote) => console.log(`added note with subject=${noted.subject}`)),
+    tap((note: INote) => console.log(`added note with id=${noted.noteId}`)),
     catchError(this.handleError<INote>('addNote'))
   );
 }
